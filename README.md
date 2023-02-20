@@ -15,24 +15,14 @@ For all support questions, ask in our [Discord](https://www.discord.gg/projectsl
 * Start resource through server.cfg
 * Restart your server.
 
-# Preview
-![image](https://user-images.githubusercontent.com/82112471/217596976-5147fefa-24e2-4b98-b167-4e151b8a9a8c.png)
-![image](https://user-images.githubusercontent.com/82112471/217597024-2c1493fc-4439-4b56-abbd-f9149e987b9e.png)
-![image](https://user-images.githubusercontent.com/82112471/217597103-c271720a-4c1b-4a13-8e17-a27727cb0e95.png)
-![image](https://user-images.githubusercontent.com/82112471/217597192-f9a63728-d2d0-4dfe-bd8b-373df1f9e969.png)
-![image](https://user-images.githubusercontent.com/82112471/217597248-85d2d074-7fcd-4a54-ac57-8d1103047bc0.png)
-![image](https://user-images.githubusercontent.com/82112471/217597338-aefcaed1-db9e-4b17-be45-3e0a66416b63.png)
-![image](https://user-images.githubusercontent.com/82112471/217597379-d936fb8e-e33a-4817-8997-16447158afb8.png)
-![image](https://user-images.githubusercontent.com/82112471/217597433-cd24bd41-a515-4fac-a896-807494501c39.png)
-
-## FAQ
-- **How do I add charges to a criminal in an Incident?** - After finding and adding the criminal citizen to the incident, right-click in the space under the criminal's name and select "Add Charge".
-
-![](https://i.imgur.com/WVEDLnJ.png)
-
-- **My dispatch calls are not being populated?** - You have not started the dispatch resource before the mdt or renamed the dispatch resource name and not made the necessary changes in mdt to reflect that. 
-
-## EchoRP MDT QBCore Edit (WIP)
-
-EchoRP MDT Released by Flawws#9999 from Echo RP rewritten and restructured for QBCore. 
-This is no longer a fork so we are able to open issues on this repo.
+# Previews
+![image](https://user-images.githubusercontent.com/57048210/220138506-3cc11d4d-5b7e-4c9b-be1f-d66cd21a02d8.png)
+![image](https://user-images.githubusercontent.com/57048210/220138543-2f45a979-3655-4aea-95aa-5e33ce91cc4a.png)
+![image](https://user-images.githubusercontent.com/57048210/220138559-2988326a-678f-4482-ab30-6dce9ec059b5.png)
+![image](https://user-images.githubusercontent.com/57048210/220138573-424ca54b-5f83-42f3-9998-294590671370.png)
+![image](https://user-images.githubusercontent.com/57048210/220138618-f88b5a5a-ff99-4700-804b-a8f6298e5945.png)
+![image](https://user-images.githubusercontent.com/57048210/220138626-465c5c8f-e688-4700-85e6-444cabb2b8f8.png)
+![image](https://user-images.githubusercontent.com/57048210/220138643-3d8fd794-6943-4f2a-a20b-3ce512695930.png)
+![image](https://user-images.githubusercontent.com/57048210/220138653-aa9e8bd7-ca89-4c8e-973d-ea689bbc9de2.png)
+![image](https://user-images.githubusercontent.com/57048210/220138684-5eb1d792-c562-427d-bfa9-0d6bea635516.png)
+![image](https://user-images.githubusercontent.com/57048210/220138673-ae423e70-0aca-45e7-9817-ed3e73f25b33.png)
