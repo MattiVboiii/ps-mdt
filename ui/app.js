@@ -41,14 +41,14 @@ const DojJobs = {
 }
 
 const MONTH_NAMES = [
-  "January",
-  "February",
-  "March",
+  "Januari",
+  "Februari",
+  "Maart",
   "April",
-  "May",
-  "June",
-  "July",
-  "August",
+  "Mei",
+  "Juni",
+  "Juli",
+  "Augustus",
   "September",
   "October",
   "November",
@@ -78,9 +78,17 @@ function getFormattedDate(date, prefomattedDate = false, hideYear = false) {
 }
 
 var quotes = [
-  'Project Sloth On Top!',
-  'A Discord rewrite fixes everything.',
-  'Does anyone even read these?',
+  'Elke dag is een nieuwe kans om het beter te doen.',
+  'Hoe meer je geeft, hoe meer je ontvangt.',
+  'Als je doet wat je leuk vindt, hoef je nooit te werken.',
+  'Het zijn niet de omstandigheden, maar hoe je ermee omgaat.',
+  'Kleine stappen leiden tot grote resultaten.',
+  'Je kunt pas falen als je opgeeft.',
+  'Als het niet gaat zoals het moet, dan moet het maar zoals het gaat.',
+  'Je bent nooit te oud om te leren.',
+  'Wat je ook doet, doe het met passie.',
+  'Een pessimist ziet een probleem in elke mogelijkheid. Een optimist ziet een mogelijkheid in elk probleem.',
+  'Geef nooit op, grootse dingen kosten tijd.',
 ]
 
 function randomizeQuote() {
@@ -104,17 +112,17 @@ function timeAgo(dateParam) {
   const isThisYear = today.getFullYear() === date.getFullYear();
 
   if (seconds < 5) {
-    return "Just Now";
+    return "Net nu";
   } else if (seconds < 60) {
-    return `${seconds} Seconds ago`;
+    return `${seconds} seconden geleden`;
   } else if (seconds < 90) {
-    return "About a minute ago";
+    return "Ongeveer een minuut geleden";
   } else if (minutes < 60) {
-    return `${minutes} Minutes ago`;
+    return `${minutes} minuten geleden`;
   } else if (isToday) {
-    return getFormattedDate(date, "Today");
+    return getFormattedDate(date, "Vandaag");
   } else if (isYesterday) {
-    return getFormattedDate(date, "Yesterday");
+    return getFormattedDate(date, "Gisteren");
   } else if (isThisYear) {
     return getFormattedDate(date, false, true);
   }
@@ -290,7 +298,7 @@ $(document).ready(() => {
                 <span contenteditable="true" class="bulletin-item-title"></span>
                 <span contenteditable="true" class="bulletin-item-info"></span>
                 <div class="bulletin-bottom-info">
-                <div class="bulletin-date">${MyName} - Just Now</div>
+                <div class="bulletin-date">${MyName} - Net nu</div>
                 </div>
             </div>`);
     } else {
@@ -3235,8 +3243,8 @@ $(document).ready(() => {
     let currentStatus = $(`[data-id="${info}"]`)
       .find(".unit-status")
       .html();
-    if (currentStatus == "10-8") {
-      $(`[data-id="${info}"]`).find(".unit-status").html("10-7");
+    if (currentStatus == "IN DIENST") {
+      $(`[data-id="${info}"]`).find(".unit-status").html("UIT DIENST");
       $(`[data-id="${info}"]`)
         .find(".unit-status")
         .removeClass("green-status")
@@ -3248,8 +3256,8 @@ $(document).ready(() => {
           status: 0,
         })
       );
-    } else if (currentStatus == "10-7") {
-      $(`[data-id="${info}"]`).find(".unit-status").html("10-8");
+    } else if (currentStatus == "UIT DIENST") {
+      $(`[data-id="${info}"]`).find(".unit-status").html("IN DIENST");
       $(`[data-id="${info}"]`)
         .find(".unit-status")
         .removeClass("yellow-status")
@@ -3297,28 +3305,28 @@ $(document).ready(() => {
         {
           className: "toggle-duty",
           icon: "fas fa-thumbtack",
-          text: "Toggle Duty",
+          text: "Ga in/uit dienst",
           info: cid,
           status: "",
         },
         {
           className: "set-callsign",
           icon: "far fa-id-badge",
-          text: "Set Callsign",
+          text: "Voer roepnummer in",
           info: cid,
           status: "",
         },
         {
           className: "set-radio",
           icon: "fas fa-broadcast-tower",
-          text: "Set Radio",
+          text: "Voer radionummer in",
           info: cid,
           status: "",
         },
         {
           className: "set-waypoint",
           icon: "fas fa-map-marker-alt",
-          text: "Set Waypoint",
+          text: "Stel waypoint in",
           info: cid,
           status: "",
         },
@@ -3456,7 +3464,7 @@ $(document).ready(() => {
             {
               className: "Set-Waypoint",
               icon: "fas fa-map-marker-alt",
-              text: "Set Waypoint",
+              text: "Stel waypoint in",
               info: callId,
               status: "",
             },
@@ -3494,7 +3502,7 @@ $(document).ready(() => {
             {
               className: "Set-Waypoint",
               icon: "fas fa-map-marker-alt",
-              text: "Set Waypoint",
+              text: "Stel waypoint in",
               info: callId,
               status: "",
             },
@@ -3546,7 +3554,7 @@ $(document).ready(() => {
           {
             className: "set-waypoint",
             icon: "fas fa-map-marker-alt",
-            text: "Set Waypoint",
+            text: "Stel waypoint in",
             info: cid,
             status: "",
           },
@@ -3785,32 +3793,32 @@ $(document).ready(() => {
         );
         document.documentElement.style.setProperty(
           "--color-10",
-          "#8f741b"
+          "#263dbb"
         );
         $(".badge-logo").attr("src", "img/sasp_badge.webp");
-        $(".header-title").html("SAN ANDREAS STATE POLICE");
-        $(".bolo-nav-item").html("BOLOs");
-        $(".bolos-search-title").html("Bolos");
-        $("#bolos-search-input").attr("placeholder", "Search Bolo...");
-        $(".manage-bolos-title").html("Manage Bolo");
+        $(".header-title").html("BRUSSEL POLITIE");
+        $(".bolo-nav-item").html("Arrestatiebevelen");
+        $(".bolos-search-title").html("Arrestatiebevelen");
+        $("#bolos-search-input").attr("placeholder", "Zoek arrestatiebevelen...");
+        $(".manage-bolos-title").html("Bewerk Arrestatiebevel");
         $(".manage-bolos-editing-title").html(
-          "You are currently creating a new BOLO"
+          "Je bent momenteel een arrestatiebevel aan het maken"
         );
-        $(".boloplate-title").html("Plate");
-        $(".boloowner-title").html("Owner");
-        $(".boloindividual-title").html("Individual");
-        $("#boloplate").attr("placeholder", "Place plate here...");
+        $(".boloplate-title").html("Nummerplaat");
+        $(".boloowner-title").html("Eigenaar");
+        $(".boloindividual-title").html("Bijzittende");
+        $("#boloplate").attr("placeholder", "Plaats nummerplaat hier...");
         $("#bolodetail").attr(
           "placeholder",
-          "Bolo detail goes here..."
+          "Arrestatiebevel-details komen hier te staan..."
         );
         $("#boloowner").attr(
           "placeholder",
-          "Place vehicle owner here..."
+          "Plaats de naam van de eigenaar van het voertuig hier..."
         );
         $("#boloindividual").attr(
           "placeholder",
-          "Place invidivual here..."
+          "Plaats de naam van de bijzittende(n) in het voertuig hier..."
         );
         $("#home-warrants-container").fadeIn(0);
         $("#home-reports-container").fadeOut(0);
@@ -4094,7 +4102,7 @@ $(document).ready(() => {
         if (onDutyOnly && unit.duty == 0 && unit.cid != cid) {
           return
         }
-        let status = unit.duty == 1 ? "10-8" : '10-7';
+        let status = unit.duty == 1 ? "IN DIENST" : 'UIT DIENST';
         let statusColor = unit.duty == 1 ? "green-status" : 'yellow-status';
         let radioBack = unit.sig100 ? "#7b2c2c" : "var(--color-3)";
         let radio = unit.radio ? unit.radio : "0";
@@ -4102,7 +4110,7 @@ $(document).ready(() => {
         let activeInfoJob = `<div class="unit-job active-info-job-unk">UNKNOWN</div>`;
         if (PoliceJobs[unit.unitType] !== undefined) {
           policeCount++;
-          activeInfoJob = `<div class="unit-job active-info-job-lspd">LSPD</div>`;
+          activeInfoJob = `<div class="unit-job active-info-job-lspd">Politie</div>`;
         } else if (AmbulanceJobs[unit.unitType] !== undefined) {
           activeInfoJob = `<div class="unit-job active-info-job-ambulance">Ambulance</div>`
           emsCount++;
@@ -4110,7 +4118,7 @@ $(document).ready(() => {
           activeInfoJob = `<div class="unit-job active-info-job-fire">FIRE</div>`
           fireCount++; */
         } else if (DojJobs[unit.unitType] !== undefined) {
-          activeInfoJob = `<div class="unit-job active-info-job-doj">DOJ</div>`
+          activeInfoJob = `<div class="unit-job active-info-job-doj">Fixers</div>`
           dojCount++;
         }
 
@@ -4118,7 +4126,7 @@ $(document).ready(() => {
                     <div class="active-unit-item" data-id="${unit.cid}">
                         <div class="unit-status ${statusColor}">${status}</div>
                         ${activeInfoJob}
-                        <div class="unit-name">(${callSign}) ${unit.firstName} ${unit.lastName}</div>
+                        <div class="unit-name">(${callSign})</div>
                         <div class="unit-radio" style="background-color: ${radioBack};">${radio}</div>
                     </div>
                 `;
@@ -4382,7 +4390,7 @@ $(document).ready(() => {
             ".dispatch-attached-units-holder"
           ).prepend(`<div class="dispatch-attached-unit-item" data-id="${value.cid}">
                         <div class="unit-job unit-police">${value.job}</div>
-                        <div class="unit-name">(${value.callsign}) ${value.fullname}</div>
+                        <div class="unit-name">(${value.callsign})</div>
                         <div class="unit-radio">1</div>
                     </div> `);
         });
@@ -5103,10 +5111,10 @@ function fidgetSpinner(page) {
 function timeShit() {
   let localDate = new Date();
   const myTimeZone = Intl.DateTimeFormat().resolvedOptions().timeZone
-  date = localDate.toLocaleDateString("en-US", {
+  date = localDate.toLocaleDateString("nl-BE", {
     timeZone: myTimeZone,
   });
-  time = localDate.toLocaleTimeString("en-US", {
+  time = localDate.toLocaleTimeString("nl-BE", {
     timeZone: myTimeZone,
   });
   $(".date").html(date);

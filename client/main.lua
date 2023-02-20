@@ -40,16 +40,6 @@ end)
 RegisterNetEvent("QBCore:Client:SetDuty", function(job, state)
     if AllowedJob(job) then
         TriggerServerEvent("ps-mdt:server:ToggleDuty")
-        TriggerServerEvent('QBCore:ToggleDuty')
-        if PlayerData.job.name == "police" or PlayerData.job.type == "leo" then
-            TriggerServerEvent("police:server:UpdateCurrentCops")
-        end
-        if (PlayerData.job.name == "ambulance" or PlayerData.job.type == "ems") and job then
-            TriggerServerEvent('hospital:server:AddDoctor', 'ambulance')
-        elseif (PlayerData.job.name == "ambulance" or PlayerData.job.type == "ems") and not job then
-            TriggerServerEvent('hospital:server:RemoveDoctor', 'ambulance')
-        end
-        TriggerServerEvent("police:server:UpdateBlips")
     end
 end)
 
@@ -255,7 +245,7 @@ RegisterNetEvent('mdt:client:open', function(bulletin, activeUnits, calls, cid)
 
     -- local grade = PlayerData.job.grade.name
 
-    SendNUIMessage({ type = "data", activeUnits = activeUnits, citizenid = cid, ondutyonly = Config.OnlyShowOnDuty, name = "Welcome, " ..PlayerData.job.grade.name..' '..PlayerData.charinfo.lastname:sub(1,1):upper()..PlayerData.charinfo.lastname:sub(2), location = playerStreetsLocation, fullname = PlayerData.charinfo.firstname..' '..PlayerData.charinfo.lastname, bulletin = bulletin })
+    SendNUIMessage({ type = "data", activeUnits = activeUnits, citizenid = cid, ondutyonly = Config.OnlyShowOnDuty, name = "Welkom, " ..PlayerData.job.grade.name..' '..PlayerData.charinfo.lastname:sub(1,1):upper()..PlayerData.charinfo.lastname:sub(2), location = playerStreetsLocation, fullname = PlayerData.charinfo.firstname..' '..PlayerData.charinfo.lastname, bulletin = bulletin })
     SendNUIMessage({ type = "calls", data = calls })
     TriggerEvent("mdt:client:dashboardWarrants")
 end)

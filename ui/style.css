@@ -650,7 +650,7 @@ span.bulletin-item-info[contenteditable]:empty::before {
 }
 
 .yellow-status {
-    background-color: #958F09;
+    background-color: #950909;
 }
 
 .unit-job {
@@ -3367,7 +3367,7 @@ span.civilians-incident-input[contenteditable]:empty::before {
 }
 
 .bolos-search-refresh:hover {
-    background-color: #aa891c;
+    background-color: #1c1eaa;
 }
 
 .bolos-search-title {
@@ -3803,7 +3803,7 @@ span.officer-tag-bolo-input[contenteditable]:empty::before {
 }
 
 .reports-search-refresh:hover {
-    background-color: #aa891c;
+    background-color: #1c1eaa;
 }
 
 .dispatch-comms-refresh {
@@ -3823,7 +3823,7 @@ span.officer-tag-bolo-input[contenteditable]:empty::before {
 }
 
 .dispatch-comms-refresh:hover {
-    background-color: #aa891c;
+    background-color: #1c1eaa;
 }
 
 .reports-search-title {
@@ -4492,7 +4492,7 @@ span.civilian-tag-reports-input[contenteditable]:empty::before {
 }
 
 .dmv-search-refresh:hover {
-    background-color: #aa891c;
+    background-color: #1c1eaa;
 }
 
 .dmv-search-title {
@@ -5070,15 +5070,15 @@ span.civilian-tag-reports-input[contenteditable]:empty::before {
 }
 
 .toggle-duty:hover {
-    background-color: #956E09;
+    background-color: #1c1eaa;
 }
 
 .set-callsign:hover {
-    background-color: #0B9509;
+    background-color: #1c1eaa;
 }
 
 .set-radio:hover {
-    background-color: #09956b;
+    background-color: #1c1eaa;
 }
 
 .incidents-ghost-holder {
@@ -5547,8 +5547,8 @@ span.civilian-tag-reports-input[contenteditable]:empty::before {
     background-color: #1caa28;
 }
 
-.Set-Waypoint:hover {
-    background-color: #f18f1e;
+.set-waypoint:hover {
+    background-color: #1c1eaa;
 }
 
 .call-detach:hover {
@@ -5673,7 +5673,7 @@ span.civilian-tag-reports-input[contenteditable]:empty::before {
 }
 
 .incidents-search-refresh:hover {
-    background-color: #aa891c;
+    background-color: #1c1eaa;
 }
 
 .respond-calls {
