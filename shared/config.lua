@@ -8,7 +8,7 @@ Config.UseCQCMugshot = true
 Config.MugPhotos = 1
 
 -- Images for mug shots will be uploaded here. Add a Discord webhook. 
-Config.Webhook = 'https://discord.com/api/webhooks/1101782484947042394/ctZSMIUpYpvqBL5fZHG0BcoE235Ykd1eVxO7Nw8DBmJ4JGWIPQWiLx91CczLAio0eEtY'
+Config.Webhook = ''
 
 -- Clock-in notifications for duty. Add a Discord webhook.
 -- Command /mdtleaderboard, will display top players per clock-in hours.
