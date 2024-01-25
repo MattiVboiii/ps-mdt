@@ -70,6 +70,6 @@ RegisterNetEvent('ps-mdt:client:TakeOutImpound', function(data)
         local vehicle = data.vehicle
         TakeOutImpound(data)
     else
-        QBCore.Functions.Notify("U bent te ver weg van de inbeslagnameplaats.!")
+        QBCore.Functions.Notify("You are too far away from the impound location!")
     end
 end)

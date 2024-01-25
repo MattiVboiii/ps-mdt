@@ -2,6 +2,7 @@ local QBCore = exports['qb-core']:GetCoreObject()
 
 function GetPlayerData(source)
 	local Player = QBCore.Functions.GetPlayer(source)
+	if Player == nil then return end -- Player not loaded in correctly
 	return Player.PlayerData
 end
 
@@ -21,7 +22,7 @@ function PermCheck(src, PlayerData)
 	local result = true
 
 	if not Config.AllowedJobs[PlayerData.job.name] then
-		print(("UserId: %s(%d) probeerde toegang te krijgen tot het mdt hoewel ze niet geautoriseerd zijn (server direct)"):format(GetPlayerName(src), src))
+		print(("UserId: %s(%d) tried to access the mdt even though they are not authorised (server direct)"):format(GetPlayerName(src), src))
 		result = false
 	end
 

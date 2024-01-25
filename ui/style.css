@@ -2726,6 +2726,20 @@ span.tag-incident-input[contenteditable]:empty::before {
     background-color: var(--color-5);
 }
 
+.modify-charges-label {
+    color: white;
+    font-size: 13px;
+    font-weight: bolder;
+    border-bottom: 2px solid #2C537B;
+    padding: 2px;
+    margin: auto;
+    margin-top: 4px;
+    margin-bottom: -3px;
+    width: 95%;
+    align-items: center;
+    user-select: none;
+}
+
 .associated-incidents-user-tag {
     text-decoration: none;
     margin-top: auto;
@@ -2744,11 +2758,12 @@ span.tag-incident-input[contenteditable]:empty::before {
 }
 
 .associated-incidents-user-holder {
+    padding: 10px;
     overflow: auto;
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
-    width: 95%;
+    width: 92%;
     min-height: 3.5vh;
     max-height: 37vh;
     user-select: none;
@@ -3456,7 +3471,7 @@ span.tag-incident-input[contenteditable]:empty::before {
     font-weight: lighter;
     padding-top: 7px;
     padding-bottom: 7px;
-    background-color: var(--color-8);
+    background-color: var(--color-10);
     margin: auto;
     margin-left: 5px;
     margin-top: 10px;
@@ -3467,7 +3482,7 @@ span.tag-incident-input[contenteditable]:empty::before {
 }
 
 .bolos-search-refresh:hover {
-    background-color: #2528cc;
+    background-color: #aa891c;
 }
 
 .bolos-search-title {
@@ -3892,7 +3907,7 @@ span.officer-tag-bolo-input[contenteditable]:empty::before {
     font-weight: lighter;
     padding-top: 7px;
     padding-bottom: 7px;
-    background-color: var(--color-8);
+    background-color: var(--color-10);
     margin: auto;
     margin-left: 5px;
     margin-top: 10px;
@@ -3903,7 +3918,7 @@ span.officer-tag-bolo-input[contenteditable]:empty::before {
 }
 
 .reports-search-refresh:hover {
-    background-color: #2528cc;
+    background-color: #aa891c;
 }
 
 .dispatch-comms-refresh {
@@ -3912,7 +3927,7 @@ span.officer-tag-bolo-input[contenteditable]:empty::before {
     font-weight: lighter;
     padding-top: 7px;
     padding-bottom: 7px;
-    background-color: var(--color-8);
+    background-color: var(--color-10);
     margin: auto;
     margin-left: 5px;
     margin-top: 10px;
@@ -3923,7 +3938,7 @@ span.officer-tag-bolo-input[contenteditable]:empty::before {
 }
 
 .dispatch-comms-refresh:hover {
-    background-color: #2528cc;
+    background-color: #aa891c;
 }
 
 .reports-search-title {
@@ -4538,7 +4553,7 @@ span.tag-reports-input[contenteditable]:empty::before {
     font-weight: lighter;
     padding-top: 7px;
     padding-bottom: 7px;
-    background-color: var(--color-8);
+    background-color: var(--color-10);
     margin: auto;
     margin-left: 5px;
     margin-top: 10px;
@@ -4549,7 +4564,7 @@ span.tag-reports-input[contenteditable]:empty::before {
 }
 
 .dmv-search-refresh:hover {
-    background-color: #2528cc;
+    background-color: #aa891c;
 }
 
 .dmv-search-title {
@@ -5814,7 +5829,7 @@ span.tag-reports-input[contenteditable]:empty::before {
     font-weight: lighter;
     padding-top: 7px;
     padding-bottom: 7px;
-    background-color: var(--color-8);
+    background-color: var(--color-10);
     margin: auto;
     margin-left: 5px;
     margin-top: 10px;
@@ -5825,7 +5840,7 @@ span.tag-reports-input[contenteditable]:empty::before {
 }
 
 .incidents-search-refresh:hover {
-    background-color: #2528cc;
+    background-color: #aa891c;
 }
 
 .respond-calls {
@@ -5867,7 +5882,7 @@ span.tag-reports-input[contenteditable]:empty::before {
     width: 92.5%;
     margin-top: 10px;
     margin-bottom: 10px;
-    outline: solid 3px #1B3047;
+    outline: solid 3px var(--color-4);
     margin-left: 27px;
     min-height: 21.5vh;
     max-height: 21.5vh;
@@ -5880,7 +5895,7 @@ span.tag-reports-input[contenteditable]:empty::before {
 }
 
 .respond-calls-input:focus {
-    outline: solid 3px #1B3047;
+    outline: solid 3px var(--color-4);
 }
 
 .respond-calls-responses {

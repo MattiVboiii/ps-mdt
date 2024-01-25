@@ -6,7 +6,7 @@ function GetCitizenID(license)
     if result ~= nil then
         return result
     else
-        print("Kan geen CitizenID vinden voor licentie: "..license)
+        print("Cannot find a CitizenID for License: "..license)
         return nil
     end
 end
@@ -48,7 +48,7 @@ function GetLicenseInfo(cid)
 end
 
 function CreateUser(cid, tableName)
-	AddLog("Een gebruiker werd aangemaakt met de CID: "..cid)
+	AddLog("A user was created with the CID: "..cid)
 	return MySQL.insert.await("INSERT INTO `"..tableName.."` (cid) VALUES (:cid)", { cid = cid })
 end
 

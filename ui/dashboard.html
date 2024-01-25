@@ -34,8 +34,8 @@
     <img src="" class="gallery-image-enlarged">
     <div class="callsign-container" style="display: none">
         <div class="callsign-inner-container" style="display: none">
-            <div class="callsign-title">Roepnaam invoeren</div>
-            <input type="text" maxlength="5" class="callsign-input" placeholder="69-69">
+            <div class="callsign-title">Voer roepnummer in</div>
+            <input type="text" maxlength="5" class="callsign-input" placeholder="6969">
             <div class="callsign-buttons">
                 <div class="callsign-cancel">Annuleer</div>
                 <div class="callsign-submit">Bevestig</div>
@@ -54,7 +54,7 @@
     </div>
     <div class="dispatch-attached-units">
         <div class="dispatch-attached-units-container">
-            <div class="dispatch-attached-units-title" data-id="0">Aangesloten eenheden</div>
+            <div class="dispatch-attached-units-title" data-id="0">Gekoppelde eenheden</div>
             <div class="dispatch-attached-units-holder">
             </div>
         </div>
@@ -62,16 +62,16 @@
 
     <div class="respond-calls" style="display:none;">
         <div class="respond-calls-container" style="display:none;">
-            <div class="respond-calls-title">Antwoord op oproep</div>
+            <div class="respond-calls-title">Oproep beantwoorden</div>
             <div class="respond-calls-responses">
             </div>
-            <textarea class="respond-calls-input" type="text" id="respondcalls" name="respondcalls" placeholder="Wat wil je antwoorden?"></textarea>
+            <textarea class="respond-calls-input" type="text" id="respondcalls" name="respondcalls" placeholder="Wat wil je graag zeggen?"></textarea>
         </div>
     </div>
 
     <div class="incidents-person-search">
         <div class="incidents-person-search-container">
-            <div class="incidents-person-search-title">Persoon zoeken</div>
+            <div class="incidents-person-search-title">Persoon opzoeken</div>
             <div class="incidents-person-search-name-title">Naam</div>
             <div style="width: 95%; margin: auto; border-bottom: 2px solid #2C537B;"><input class="incidents-person-search-name-input"></div>
             <div class="incidents-person-search-holder">
@@ -81,7 +81,7 @@
 
     <div class="convictions-known">
         <div class="convictions-known-container">
-            <div class="convictions-known-title">Veroordelingen</div>
+            <div class="convictions-known-title">Convictions</div>
             <div class="convictions-holder">
             </div>
         </div>
@@ -89,7 +89,7 @@
 
     <div class="incidents-known">
         <div class="incidents-known-container">
-            <div class="incidents-known-title">Bekende incidenten</div>
+            <div class="incidents-known-title">Gekende PV's</div>
             <div class="profile-incidents-holder">
             </div>
         </div>
@@ -98,18 +98,18 @@
         <div class="incidents-charges-table-container">
             <div class="incidents-charges-title-container">
                 <div class="incidents-charges-title">Boetes</div>
-                <div class="incidents-charges-title-description">Zoek en klik met de linkermuisknop op boetes in de lijst die u aan de verdachte wilt toevoegen. Klik met de rechtermuisknop op boetes in de lijst die u wilt verwijderen.</div>
+                <div class="incidents-charges-title-description">Zoek en klik met de linkermuisknop op kosten in de grotere lijst die u wilt toevoegen aan de verdachte. Klik met de rechtermuisknop op kosten in de grotere lijst die u wilt verwijderen.</div>
             </div>
             <div class="current-charges-container">
                 <div class="current-charges-inner-container">
-                    <div class="current-charges-title">Huidige Boetes</div>
+                    <div class="current-charges-title">Huidige boetes</div>
                 </div>
                 <div id="current-charges-holder">
                     <div class="current-charges-tag">test</div>
                 </div>
             </div>
             <div class="offenses-search-area">
-                <input type="text" class="offenses-search" placeholder="Search for charges" id="offenses-search" name="offenses-search">
+                <input type="text" class="offenses-search" placeholder="Zoeken voor boetes" id="offenses-search" name="offenses-search">
             </div>
             <div class="offenses-main-container"></div>
         </div>
@@ -118,7 +118,7 @@
         <div class="header">
             <img src="img/sasp_badge.webp" class="badge-logo">
             <div class="header-left">
-                <div class="header-title" style="color: #ffffff; font-weight: bold; font-size: 18px;">BRUSSEL POLITIE</div>
+                <div class="header-title" style="color: #caa95d; font-weight: bold; font-size: 18px;">SAN ANDREAS STATE POLICE</div>
                 <div style="color: white; font-weight: lighter; font-size: 16px;">Mobile Database Terminal</div>
             </div>
             <div class="header-middle">
@@ -126,7 +126,7 @@
                 <div class="time">00:00</div>
             </div>
             <div class="header-right">
-                <div style="color: white; font-weight: lighter; font-size: 22px;" class="name-shit">Welkom, Loading...
+                <div style="color: white; font-weight: lighter; font-size: 22px;" class="name-shit">Welcome, Loading...
                 </div>
                 <div style="color: lightgray; font-size: 15px;"><span class="fas fa-map-pin header-pin"></span><span class="header-location"></span></div>
             </div>
@@ -136,16 +136,16 @@
             <div class="nav-menu">
                 <div class="nav-item">Dashboard</div>
                 <div class="nav-item">Profielen</div>
-                <div class="nav-item incidents-nav-item">Proces verbalen</div>
-                <div class="nav-item">Aangiftes</div>
+                <div class="nav-item incidents-nav-item">Proces Verbalen</div>
+                <div class="nav-item">Rapporten</div>
                 <div class="nav-item map-nav-item">Map</div>
                 <div class="nav-item bolo-nav-item">Arrestatiebevelen</div>
-                <div class="nav-item">Database</div>
-                <div class="nav-item">Regels</div>
+                <div class="nav-item">Rooster</div>
+                <div class="nav-item">Documenten</div>
                 <div class="nav-item dmv-nav-item">Voertuigen</div>
                 <div class="nav-item weapons-nav-item" data-page=".weapons-page-container">Wapens</div>
                 <div class="nav-item cams-nav-item">Cameras</div>
-                <div class="nav-item">Logs</div>
+                <div class="nav-item">Staff Logs</div>
             </div>
         </div>
     </div>
@@ -153,7 +153,7 @@
         <div class="header">
             <img src="img/sasp_badge.webp" class="badge-logo">
             <div class="header-left">
-                <div class="header-title" style="color: #ffffff; font-weight: bold; font-size: 18px;">BRUSSEL POLITIE</div>
+                <div class="header-title" style="color: #caa95d; font-weight: bold; font-size: 18px;">SAN ANDREAS STATE POLICE</div>
                 <div style="color: white; font-weight: lighter; font-size: 16px;">Mobile Database Terminal</div>
             </div>
             <div class="header-middle">
@@ -161,7 +161,7 @@
                 <div class="time">00:00</div>
             </div>
             <div class="header-right">
-                <div style="color: white; font-weight: lighter; font-size: 22px;" class="name-shit">Welkom, Loading...
+                <div style="color: white; font-weight: lighter; font-size: 22px;" class="name-shit">Welcome, Loading...
                 </div>
                 <div style="color: lightgray; font-size: 15px;"><span class="fas fa-map-pin header-pin"></span><span class="header-location"></span></div>
             </div>
@@ -170,16 +170,16 @@
             <div class="nav-menu">
                 <div class="nav-item active-nav" data-page=".dashboard-page-container">Dashboard</div>
                 <div class="nav-item" data-page=".profile-page-container">Profielen</div>
-                <div class="nav-item incidents-nav-item" data-page=".incidents-page-container">Proces verbalen</div>
-                <div class="nav-item" data-page=".reports-page-container">Aangiftes</div>
+                <div class="nav-item incidents-nav-item" data-page=".incidents-page-container">Proces Verbalen</div>
+                <div class="nav-item" data-page=".reports-page-container">Rapporten</div>
                 <div class="nav-item map-nav-item" data-page=".map-page-container">Map</div>
                 <div class="nav-item bolo-nav-item" data-page=".bolos-page-container">Arrestatiebevelen</div>
-                <div class="nav-item penalcode-nav-item" data-page=".penalcode-page-container">Database</div>
-                <div class="nav-item sop-nav-item" data-page=".sop-page-container">Regels</div>
+                <div class="nav-item penalcode-nav-item" data-page=".penalcode-page-container">Rooster</div>
+                <div class="nav-item sop-nav-item" data-page=".sop-page-container">Documenten</div>
                 <div class="nav-item dmv-nav-item" data-page=".dmv-page-container">Voertuigen</div>
                 <div class="nav-item weapons-nav-item" data-page=".weapons-page-container">Wapens</div>
                 <div class="nav-item cams-nav-item" data-page=".cams-page-container">Cameras</div>
-                <div class="nav-item" data-page=".stafflogs-page-container">Logs</div>
+                <div class="nav-item" data-page=".stafflogs-page-container">Staff Logs</div>
             </div>
             <div style="display: flex; flex-direction: column;">
                 <div class="dispatch-comms-container">
@@ -188,11 +188,11 @@
                         <div class="dispatch-comms-refresh">Herlaad</div>
                     </div>
                     <div class="dispatch-items"> </div>
-                    <textarea class="dispatch-input" type="text" id="dispatchmsg" name="dispatchmsg" placeholder="Message #dispatch"></textarea>
+                    <textarea class="dispatch-input" type="text" id="dispatchmsg" name="dispatchmsg" placeholder="Geef een bericht aan #dispatch"></textarea>
                 </div>
                 <div class="reports-container" id="home-reports-container" style="display:none">
                     <div style="display: flex;" class="reports-search-title-holder">
-                        <div class="reports-search-title">Aangiftes</div>
+                        <div class="reports-search-title">Rapporten</div>
                         <div class="reports-search-refresh">Herlaad</div>
                     </div>
                     <div class="reports-items">
@@ -208,7 +208,7 @@
 
             <div style="display: flex; flex-direction: column;">
                 <div class="quotes-container">
-                    <div class="quote-title"><span style="color: #5d64ca;">Quote</span> of the Day</div>
+                    <div class="quote-title"><span style="color: #caa95d;">Quote</span> van de dag</div>
                     <div class="quote"><span class="quote-span">The DOJ is not the enemy, but is clearly not an ally</span></div>
                 </div>
                 <div class="bulletin-container">
@@ -224,12 +224,15 @@
                 <div style="display: flex; align-items: center;">
                     <div class="active-unit-title">Actieve eenheden</div>
                     <div class="active-unit-count" id="police-count">0</div>
+                    <div class="active-unit-count" id="bcso-count">0</div> 
+                    <div class="active-unit-count" id="sasp-count">0</div>
                     <div class="active-unit-count" id="ems-count">0</div>
+                    <div class="active-unit-count" id="doj-count">0</div>
                     <!-- <div class="active-unit-count" id="fire-count">0</div>  -->
                 </div>
                 <div class="active-unit-list">
                 </div>
-                <div class="calls-title">Recente medldingen</div>
+                <div class="calls-title">Recente meldingen</div>
                 <div class="active-calls-list">
                     <div class="active-calls-item">
                         <div class="active-call-inner-container">
@@ -244,7 +247,7 @@
         <div class="header">
             <img src="img/sasp_badge.webp" class="badge-logo">
             <div class="header-left">
-                <div class="header-title" style="color: #ffffff; font-weight: bold; font-size: 18px;">BRUSSEL POLITIE</div>
+                <div class="header-title" style="color: #caa95d; font-weight: bold; font-size: 18px;">SAN ANDREAS STATE POLICE</div>
                 <div style="color: white; font-weight: lighter; font-size: 16px;">Mobile Database Terminal</div>
             </div>
             <div class="header-middle">
@@ -252,7 +255,7 @@
                 <div class="time">00:00</div>
             </div>
             <div class="header-right">
-                <div style="color: white; font-weight: lighter; font-size: 22px;" class="name-shit">Welkom, Loading...
+                <div style="color: white; font-weight: lighter; font-size: 22px;" class="name-shit">Welcome, Loading...
                 </div>
                 <div style="color: lightgray; font-size: 15px;"><span class="fas fa-map-pin header-pin"></span><span class="header-location"></span></div>
             </div>
@@ -261,16 +264,16 @@
             <div class="nav-menu">
                 <div class="nav-item" data-page=".dashboard-page-container">Dashboard</div>
                 <div class="nav-item active-nav" data-page=".profile-page-container">Profielen</div>
-                <div class="nav-item incidents-nav-item" data-page=".incidents-page-container">Proces verbalen</div>
-                <div class="nav-item" data-page=".reports-page-container">Aangifte</div>
+                <div class="nav-item incidents-nav-item" data-page=".incidents-page-container">Proces Verbalen</div>
+                <div class="nav-item" data-page=".reports-page-container">Rapporten</div>
                 <div class="nav-item map-nav-item" data-page=".map-page-container">Map</div>
                 <div class="nav-item bolo-nav-item" data-page=".bolos-page-container">Arrestatiebevelen</div>
-                <div class="nav-item penalcode-nav-item" data-page=".penalcode-page-container">Database</div>
-                <div class="nav-item sop-nav-item" data-page=".sop-page-container">Regels</div>
+                <div class="nav-item penalcode-nav-item" data-page=".penalcode-page-container">Rooster</div>
+                <div class="nav-item sop-nav-item" data-page=".sop-page-container">Documenten</div>
                 <div class="nav-item dmv-nav-item" data-page=".dmv-page-container">Voertuigen</div>
                 <div class="nav-item weapons-nav-item" data-page=".weapons-page-container">Wapens</div>
                 <div class="nav-item cams-nav-item" data-page=".cams-page-container">Cameras</div>
-                <div class="nav-item" data-page=".stafflogs-page-container">Logs</div>
+                <div class="nav-item" data-page=".stafflogs-page-container">Staff Logs</div>
             </div>
             <div class="profile-container">
                 <div class="profile-title"> <span class="fas fa-search"></span> Profielen</div>
@@ -282,7 +285,7 @@
             <div class="manage-profile-container">
                 <div class="manage-profile-title">Bewerk profiel</div>
                 <div style="display: flex;">
-                    <div class="manage-profile-editing-title">U bewerkt momenteel ...</div>
+                    <div class="manage-profile-editing-title">You are currently editing ...</div>
                     <div class="manage-profile-save">Opslaan</div>
                 </div>
                 <div class="manage-profile-active-warrant">ACTIEF ARRESTATIEBEVEL</div>
@@ -313,21 +316,28 @@
                         <div class="manage-profile-apartment">Appartement</div>
                         <div><span class="fas fa-building manage-cid-pic"></span><input type="text" readonly class="manage-profile-apartment-input"></div>
                         <div class="line"></div>
-                        <div class="manage-profile-url">Profielafbeelding URL</div>
+                        <div class="manage-profile-url">Profielfoto</div>
                         <div><span class="fas fa-images manage-cid-pic"></span><input type="text" class="manage-profile-url-input"></div>
                         <div class="line" style="margin-bottom: 0px;"></div>
                     </div>
                 </div>
-                <textarea class="manage-profile-info" placeholder="Plaats hier informatie over de gebruiker..." disabled></textarea>
+                <textarea class="manage-profile-info" placeholder="Geef eventuele info over de persoon..." disabled></textarea>
             </div>
             <div class="manage-profile-right-container">
                 <div class="manage-profile-licenses-container display_hidden">
-                    <div class="license-title">Licenties <span class="licenses-amount"></span></div>
+                    <div class="license-title">Licensies <span class="licenses-amount"></span></div>
                     <div class="licenses-holder"></div>
                 </div>
                 <div class="manage-profile-vehs-container display_hidden">
                     <div class="vehs-title">Voertuigen</div>
                     <div class="vehs-holder"></div>
+                </div>
+                <div class="manage-profile-tags-container">
+                    <div style="display: flex; align-items: center;">
+                        <div class="tags-title">Tags</div>
+                        <div class="tags-add-btn fas fa-plus"></div>
+                    </div>
+                    <div class="tags-holder"></div>
                 </div>
                 <div class="manage-profile-houses-container display_hidden">
                     <div class="houses-title">Eigendommen</div>
@@ -342,7 +352,7 @@
                     </div>
                     <div class="gallery-inner-container"></div>
                 </div>
-                <div class="convictions-title"><span class="fas fa-eye"></span> Bekijk boetes</div>
+                <div class="convictions-title"><span class="fas fa-eye"></span> Bekijk gepleegde feiten</div>
                 <div class="profile-incidents-title"><span class="fas fa-eye"></span> Bekijk proces verbalen</div>
             </div>
         </div>
@@ -351,7 +361,7 @@
         <div class="header">
             <img src="img/sasp_badge.webp" class="badge-logo">
             <div class="header-left">
-                <div class="header-title" style="color: #ffffff; font-weight: bold; font-size: 18px;">BRUSSEL POLITIE</div>
+                <div class="header-title" style="color: #caa95d; font-weight: bold; font-size: 18px;">SAN ANDREAS STATE POLICE</div>
                 <div style="color: white; font-weight: lighter; font-size: 16px;">Mobile Database Terminal</div>
             </div>
             <div class="header-middle">
@@ -359,7 +369,7 @@
                 <div class="time">00:00</div>
             </div>
             <div class="header-right">
-                <div style="color: white; font-weight: lighter; font-size: 22px;" class="name-shit">Welkom, Loading...
+                <div style="color: white; font-weight: lighter; font-size: 22px;" class="name-shit">Welcome, Loading...
                 </div>
                 <div style="color: lightgray; font-size: 15px;"><span class="fas fa-map-pin header-pin"></span><span class="header-location"></span></div>
             </div>
@@ -368,24 +378,25 @@
             <div class="nav-menu">
                 <div class="nav-item" data-page=".dashboard-page-container">Dashboard</div>
                 <div class="nav-item" data-page=".profile-page-container">Profielen</div>
-                <div class="nav-item incidents-nav-item active-nav" data-page=".incidents-page-container">Proces verbalen</div>
-                <div class="nav-item" data-page=".reports-page-container">Aangiftes</div>
+                <div class="nav-item incidents-nav-item active-nav" data-page=".incidents-page-container">Proces Verbalen</div>
+                <div class="nav-item" data-page=".reports-page-container">Rapporten</div>
                 <div class="nav-item map-nav-item" data-page=".map-page-container">Map</div>
                 <div class="nav-item bolo-nav-item" data-page=".bolos-page-container">Arrestatiebevelen</div>
-                <div class="nav-item penalcode-nav-item" data-page=".penalcode-page-container">Database</div>
-                <div class="nav-item sop-nav-item" data-page=".sop-page-container">Regels</div>
+                <div class="nav-item penalcode-nav-item" data-page=".penalcode-page-container">Rooster</div>
+                <div class="nav-item sop-nav-item" data-page=".sop-page-container">Documenten</div>
                 <div class="nav-item dmv-nav-item" data-page=".dmv-page-container">Voertuigen</div>
                 <div class="nav-item weapons-nav-item" data-page=".weapons-page-container">Wapens</div>
                 <div class="nav-item cams-nav-item" data-page=".cams-page-container">Cameras</div>
-                <div class="nav-item" data-page=".stafflogs-page-container">Logs</div>
+                <div class="nav-item" data-page=".stafflogs-page-container">Staff Logs</div>
             </div>
             <div class="incidents-container">
                 <div style="display: flex;" class="reports-search-title-holder">
                     <div class="incidents-title"> <span class="fas fa-search"></span> Proces verbalen</div>
                     <div class="incidents-search-refresh">Herlaad</div>
                 </div>
-                <div class="incidents-search-input"><input id="incidents-search-input" placeholder="Zoek voor proces verbalen...">
+                <div class="incidents-search-input"><input id="incidents-search-input" placeholder="Zoek proces verbaal...">
                 </div>
+                <div class="modify-charges-label"><span class="fas fa-solid fa-info"></span> Rechtermuisklik om een PV te verwijderen.</div>
                 <div class="incidents-items">
                 </div>
             </div>
@@ -396,14 +407,22 @@
                     </div>
                     <!-- <div class="manage-incidents-save"><span class="fas fa-save" style="margin-top: 3.5px;"></span></div> -->
                 </div>
-                <div class="manage-incidents-editing-title" data-id=0>U maakt momenteel een nieuwe PV aan</div>
+                <div class="manage-incidents-editing-title" data-id=0>Je bent momenteel een nieuw proces verbaal aan het maken</div>
                 <div class="manage-incidents-title-tag">Titel</div>
                 <div class="manage-incidents-title-input"><span class="fas fa-tags"></span> <input placeholder="Plaats titel hier..." class="manage-incidents-title-input" id="manage-incidents-title-input"></div>
                 <textarea class="manage-incidents-reports-content"
-                    placeholder="De inhoud van de PV komt hier..."></textarea>
+                    placeholder="Info over het proces verbaal komt hier te staan..."></textarea>
+                <div class="manage-incidents-tags-container">
+                    <div style="display: flex; align-items: center; width: 95%;">
+                        <div class="manage-incidents-tags-title">Tags</div>
+                        <div class="manage-incidents-tags-add-btn fas fa-plus"></div>
+                    </div>
+                    <div class="manage-incidents-tags-holder">
+                    </div>
+                </div>
                 <div class="manage-incidents-evidence-container">
                     <div style="display: flex; align-items: center; width: 95%;">
-                        <div class="manage-incidents-evidence-title">Evidence</div>
+                        <div class="manage-incidents-evidence-title">Bewijs</div>
                         <div class="manage-incidents-evidence-add-btn fas fa-plus"></div>
                     </div>
                     <div class="incidents-upload-input"><input id="incidents-upload-input" placeholder="Upload URL...">
@@ -425,7 +444,7 @@
                 </div>
                 <div class="manage-incidents-civilians-container">
                     <div style="display: flex; align-items: center; width: 95%;">
-                        <div class="manage-incidents-civilians-title">Betrokken burgers</div>
+                        <div class="manage-incidents-civilians-title">Betrokken inwoners</div>
                         <div class="manage-incidents-civilians-add-btn fas fa-plus"></div>
                     </div>
                     <div class="manage-incidents-civilians-holder">
@@ -449,7 +468,7 @@
         <div class="header">
             <img src="img/sasp_badge.webp" class="badge-logo">
             <div class="header-left">
-                <div class="header-title" style="color: #ffffff; font-weight: bold; font-size: 18px;">BRUSSEL POLITIE</div>
+                <div class="header-title" style="color: #caa95d; font-weight: bold; font-size: 18px;">SAN ANDREAS STATE POLICE</div>
                 <div style="color: white; font-weight: lighter; font-size: 16px;">Mobile Database Terminal</div>
             </div>
             <div class="header-middle">
@@ -457,7 +476,7 @@
                 <div class="time">00:00</div>
             </div>
             <div class="header-right">
-                <div style="color: white; font-weight: lighter; font-size: 22px;" class="name-shit">Welkom, Loading...
+                <div style="color: white; font-weight: lighter; font-size: 22px;" class="name-shit">Welcome, Loading...
                 </div>
                 <div style="color: lightgray; font-size: 15px;"><span class="fas fa-map-pin header-pin"></span><span class="header-location"></span></div>
             </div>
@@ -466,34 +485,35 @@
             <div class="nav-menu">
                 <div class="nav-item" data-page=".dashboard-page-container">Dashboard</div>
                 <div class="nav-item" data-page=".profile-page-container">Profielen</div>
-                <div class="nav-item incidents-nav-item" data-page=".incidents-page-container">Proces verbalen</div>
-                <div class="nav-item  active-nav" data-page=".reports-page-container">Aangiftes</div>
+                <div class="nav-item incidents-nav-item" data-page=".incidents-page-container">Proces Verbalen</div>
+                <div class="nav-item active-nav" data-page=".reports-page-container">Rapporten</div>
                 <div class="nav-item map-nav-item" data-page=".map-page-container">Map</div>
                 <div class="nav-item bolo-nav-item" data-page=".bolos-page-container">Arrestatiebevelen</div>
-                <div class="nav-item penalcode-nav-item" data-page=".penalcode-page-container">Database</div>
-                <div class="nav-item sop-nav-item" data-page=".sop-page-container">Regels</div>
+                <div class="nav-item penalcode-nav-item" data-page=".penalcode-page-container">Rooster</div>
+                <div class="nav-item sop-nav-item" data-page=".sop-page-container">Documenten</div>
                 <div class="nav-item dmv-nav-item" data-page=".dmv-page-container">Voertuigen</div>
                 <div class="nav-item weapons-nav-item" data-page=".weapons-page-container">Wapens</div>
                 <div class="nav-item cams-nav-item" data-page=".cams-page-container">Cameras</div>
-                <div class="nav-item" data-page=".stafflogs-page-container">Logs</div>
+                <div class="nav-item" data-page=".stafflogs-page-container">Staff Logs</div>
             </div>
             <div class="reports-container">
 
                 <div style="display: flex;" class="reports-search-title-holder">
-                    <div class="reports-search-title"> <span class="fas fa-search"></span> Aangiftes</div>
+                    <div class="reports-search-title"> <span class="fas fa-search"></span> Rapporten</div>
                     <div class="reports-search-refresh">Herlaad</div>
                 </div>
-                <div class="reports-search-input"><input id="reports-search-input" placeholder="Zoek voor aangiftes..."> </div>
+                <div class="reports-search-input"><input id="reports-search-input" placeholder="Zoek rapporten..."> </div>
+                <div class="modify-charges-label"><span class="fas fa-solid fa-info"></span> Rechtermuisklik om een rapport te verwijderen.</div>
                 <div class="reports-items">
                 </div>
             </div>
             <div class="manage-reports-container">
                 <div style="display: flex;" class="manage-reports-title-holder">
-                    <div class="manage-reports-title">Bewerk aangifte</div>
+                    <div class="manage-reports-title">Bewerk rapport</div>
                     <div class="manage-reports-new">Nieuw</div>
                     <div class="manage-reports-save">Opslaan</div>
                 </div>
-                <div class="manage-reports-editing-title" data-id=0>U maakt momenteel een nieuwe aangifte</div>
+                <div class="manage-reports-editing-title" data-id=0>Je bent momenteel een nieuw rapport aan het maken</div>
                 <div class="manage-reports-input-tag">Titel</div>
                 <div class="manage-reports-input-title">
                     <span class="fas fa-tags"></span>
@@ -501,12 +521,19 @@
                 </div>
 
                 <div class="manage-reports-input-tag">Type</div>
-                <div class="manage-reports-input-type"><span class="fas fa-folder"></span> <input placeholder="Plaats hier het type aangifte..." id="reporttype" class="manage-reports-input-type"></div>
+                <div class="manage-reports-input-type"><span class="fas fa-folder"></span> <input placeholder="Plaats rapport type hier..." id="reporttype" class="manage-reports-input-type"></div>
 
-                <textarea class="manage-reports-reports-content" id="reportdetail" placeholder="De details van de aangifte staan hier..."></textarea>
+                <textarea class="manage-reports-reports-content" id="reportdetail" placeholder="Details over het rapport komen hier te staan..."></textarea>
             </div>
 
             <div class="manage-reports-right-container">
+                <div class="manage-reports-tags-container">
+                    <div style="display: flex; align-items: center;">
+                        <div class="manage-reports-title-tag">Tags</div>
+                        <div class="manage-reports-tags-add-btn fas fa-plus"></div>
+                    </div>
+                    <div class="manage-reports-tags-holder"></div>
+                </div>
                 <div class="reports-officers-tags-container">
                     <div style="display: flex; align-items: center;">
                         <div class="tags-title" id="reports-officers-involved-tag-title">Betrokken agenten</div>
@@ -516,7 +543,7 @@
                 </div>
                 <div class="reports-civilians-tags-container">
                     <div style="display: flex; align-items: center;">
-                        <div class="tags-title">Betrokken burgers</div>
+                        <div class="tags-title">Betrokken inwoners</div>
                         <div class="reports-civilians-add-btn fas fa-plus"></div>
                     </div>
                     <div class="reports-civilians-tags-holder"></div>
@@ -538,7 +565,7 @@
         <div class="header">
             <img src="img/sasp_badge.webp" class="badge-logo">
             <div class="header-left">
-                <div class="header-title" style="color: #ffffff; font-weight: bold; font-size: 18px;">BRUSSEL POLITIE</div>
+                <div class="header-title" style="color: #caa95d; font-weight: bold; font-size: 18px;">SAN ANDREAS STATE POLICE</div>
                 <div style="color: white; font-weight: lighter; font-size: 16px;">Mobile Database Terminal</div>
             </div>
             <div class="header-middle">
@@ -546,7 +573,7 @@
                 <div class="time">00:00</div>
             </div>
             <div class="header-right">
-                <div style="color: white; font-weight: lighter; font-size: 22px;" class="name-shit">Welkom, Loading...
+                <div style="color: white; font-weight: lighter; font-size: 22px;" class="name-shit">Welcome, Loading...
                 </div>
                 <div style="color: lightgray; font-size: 15px;"><span class="fas fa-map-pin header-pin"></span><span class="header-location"></span></div>
             </div>
@@ -555,16 +582,16 @@
             <div class="nav-menu">
                 <div class="nav-item" data-page=".dashboard-page-container">Dashboard</div>
                 <div class="nav-item" data-page=".profile-page-container">Profielen</div>
-                <div class="nav-item incidents-nav-item" data-page=".incidents-page-container">Proces verbalen</div>
-                <div class="nav-item" data-page=".reports-page-container">Aangiftes</div>
+                <div class="nav-item incidents-nav-item" data-page=".incidents-page-container">Proces Verbalen</div>
+                <div class="nav-item" data-page=".reports-page-container">Rapporten</div>
                 <div class="nav-item map-nav-item" data-page=".map-page-container">Map</div>
                 <div class="nav-item bolo-nav-item active-nav" data-page=".bolos-page-container">Arrestatiebevelen</div>
-                <div class="nav-item penalcode-nav-item" data-page=".penalcode-page-container">Database</div>
-                <div class="nav-item sop-nav-item" data-page=".sop-page-container">Regels</div>
+                <div class="nav-item penalcode-nav-item" data-page=".penalcode-page-container">Rooster</div>
+                <div class="nav-item sop-nav-item" data-page=".sop-page-container">Documenten</div>
                 <div class="nav-item dmv-nav-item" data-page=".dmv-page-container">Voertuigen</div>
                 <div class="nav-item weapons-nav-item" data-page=".weapons-page-container">Wapens</div>
                 <div class="nav-item cams-nav-item" data-page=".cams-page-container">Cameras</div>
-                <div class="nav-item" data-page=".stafflogs-page-container">Logs</div>
+                <div class="nav-item" data-page=".stafflogs-page-container">Staff Logs</div>
             </div>
             <div class="bolos-container">
 
@@ -572,7 +599,7 @@
                     <div class="bolos-search-title"> <span class="fas fa-search"></span> Arrestatiebevelen</div>
                     <div class="bolos-search-refresh">Herlaad</div>
                 </div>
-                <div class="bolos-search-input"><input id="bolos-search-input" placeholder="Zoek arrestatiebevelen..."> </div>
+                <div class="bolos-search-input"><input id="bolos-search-input" placeholder="Zoek arrestatiebevel..."> </div>
                 <div class="bolos-items">
                 </div>
             </div>
@@ -582,26 +609,33 @@
                     <div class="manage-bolos-new">Nieuw</div>
                     <div class="manage-bolos-save">Opslaan</div>
                 </div>
-                <div class="manage-bolos-editing-title" data-id=0>U maakt momenteel een nieuw arrestatiebevel</div>
+                <div class="manage-bolos-editing-title" data-id=0>Je bent momenteel een nieuw arrestatiebevel aan het maken</div>
                 <div class="manage-bolos-input-tag bolotitle-title">Titel</div>
                 <div class="manage-bolos-input-title">
                     <span class="fas fa-tags"></span>
-                    <input placeholder="Place title here..." id="bolotitle" class="manage-bolos-input-title">
+                    <input placeholder="Plaats titel hier..." id="bolotitle" class="manage-bolos-input-title">
                 </div>
 
                 <div class="manage-bolos-input-tag boloplate-title">Nummerplaat</div>
-                <div class="manage-bolos-input-plate"><span class="fas fa-address-card"></span> <input placeholder="Plaats nummerplaat..." id="boloplate" class="manage-bolos-input-plate"></div>
+                <div class="manage-bolos-input-plate"><span class="fas fa-address-card"></span> <input placeholder="Plaats nummerplaat hier..." id="boloplate" class="manage-bolos-input-plate"></div>
 
                 <div class="manage-bolos-input-tag boloowner-title">Eigenaar</div>
                 <div class="manage-bolos-input-owner"><span class="fas fa-bookmark"></span> <input placeholder="Plaats voertuigeigenaar hier..." id="boloowner" class="manage-bolos-input-owner"></div>
 
-                <div class="manage-bolos-input-tag boloindividual-title">Bijzittende</div>
-                <div class="manage-bolos-input-individual"><span class="fas fa-user"></span> <input placeholder="Plaats bijzittende hier..." id="boloindividual" class="manage-bolos-input-individual"></div>
+                <div class="manage-bolos-input-tag boloindividual-title">Bijzittenden</div>
+                <div class="manage-bolos-input-individual"><span class="fas fa-user"></span> <input placeholder="Plaats bijzittenden hier..." id="boloindividual" class="manage-bolos-input-individual"></div>
 
-                <textarea class="manage-bolos-reports-content" id="bolodetail" placeholder="Arrestatiebevel-detail gaat hier..."></textarea>
+                <textarea class="manage-bolos-reports-content" id="bolodetail" placeholder="Details over het arrestatiebevel komen hier te staan..."></textarea>
             </div>
 
             <div class="manage-bolos-right-container">
+                <div class="manage-bolos-tags-container">
+                    <div style="display: flex; align-items: center;">
+                        <div class="manage-bolos-title-tag">Tags</div>
+                        <div class="manage-bolos-tags-add-btn fas fa-plus"></div>
+                    </div>
+                    <div class="manage-bolos-tags-holder"></div>
+                </div>
                 <div class="manage-officers-tags-container">
                     <div style="display: flex; align-items: center;">
                         <div class="tags-title" id="bolos-officers-involved-tag-title">Betrokken agenten</div>
@@ -626,7 +660,7 @@
         <div class="header">
             <img src="img/sasp_badge.webp" class="badge-logo">
             <div class="header-left">
-                <div class="header-title" style="color: #ffffff; font-weight: bold; font-size: 18px;">BRUSSEL POLITIE</div>
+                <div class="header-title" style="color: #caa95d; font-weight: bold; font-size: 18px;">SAN ANDREAS STATE POLICE</div>
                 <div style="color: white; font-weight: lighter; font-size: 16px;">Mobile Database Terminal</div>
             </div>
             <div class="header-middle">
@@ -634,7 +668,7 @@
                 <div class="time">00:00</div>
             </div>
             <div class="header-right">
-                <div style="color: white; font-weight: lighter; font-size: 22px;" class="name-shit">Welkom, Loading...
+                <div style="color: white; font-weight: lighter; font-size: 22px;" class="name-shit">Welcome, Loading...
                 </div>
                 <div style="color: lightgray; font-size: 15px;"><span class="fas fa-map-pin header-pin"></span><span class="header-location"></span></div>
             </div>
@@ -643,16 +677,16 @@
             <div class="nav-menu">
                 <div class="nav-item" data-page=".dashboard-page-container">Dashboard</div>
                 <div class="nav-item" data-page=".profile-page-container">Profielen</div>
-                <div class="nav-item incidents-nav-item" data-page=".incidents-page-container">Proces verbalen</div>
-                <div class="nav-item" data-page=".reports-page-container">Aangiftes</div>
+                <div class="nav-item incidents-nav-item" data-page=".incidents-page-container">Proces Verbalen</div>
+                <div class="nav-item" data-page=".reports-page-container">Rapporten</div>
                 <div class="nav-item map-nav-item" data-page=".map-page-container">Map</div>
                 <div class="nav-item bolo-nav-item" data-page=".bolos-page-container">Arrestatiebevelen</div>
-                <div class="nav-item penalcode-nav-item active-nav" data-page=".penalcode-page-container">Database</div>
-                <div class="nav-item sop-nav-item" data-page=".sop-page-container">Regels</div>
+                <div class="nav-item penalcode-nav-item active-nav" data-page=".penalcode-page-container">Rooster</div>
+                <div class="nav-item sop-nav-item" data-page=".sop-page-container">Documenten</div>
                 <div class="nav-item dmv-nav-item" data-page=".dmv-page-container">Voertuigen</div>
                 <div class="nav-item weapons-nav-item" data-page=".weapons-page-container">Wapens</div>
                 <div class="nav-item cams-nav-item" data-page=".cams-page-container">Cameras</div>
-                <div class="nav-item" data-page=".stafflogs-page-container">Logs</div>
+                <div class="nav-item" data-page=".stafflogs-page-container">Staff Logs</div>
             </div>
             <div class="penalcode-embed" style="border:none;">
                 <iframe class="roster-iframe" src="" target="_blank"></iframe>
@@ -663,7 +697,7 @@
         <div class="header">
             <img src="img/sasp_badge.webp" class="badge-logo">
             <div class="header-left">
-                <div class="header-title" style="color: #ffffff; font-weight: bold; font-size: 18px;">BRUSSEL POLITIE</div>
+                <div class="header-title" style="color: #caa95d; font-weight: bold; font-size: 18px;">SAN ANDREAS STATE POLICE</div>
                 <div style="color: white; font-weight: lighter; font-size: 16px;">Mobile Database Terminal</div>
             </div>
             <div class="header-middle">
@@ -671,7 +705,7 @@
                 <div class="time">00:00</div>
             </div>
             <div class="header-right">
-                <div style="color: white; font-weight: lighter; font-size: 22px;" class="name-shit">Welkom, Loading...
+                <div style="color: white; font-weight: lighter; font-size: 22px;" class="name-shit">Welcome, Loading...
                 </div>
                 <div style="color: lightgray; font-size: 15px;"><span class="fas fa-map-pin header-pin"></span><span class="header-location"></span></div>
             </div>
@@ -680,16 +714,16 @@
             <div class="nav-menu">
                 <div class="nav-item" data-page=".dashboard-page-container">Dashboard</div>
                 <div class="nav-item" data-page=".profile-page-container">Profielen</div>
-                <div class="nav-item incidents-nav-item" data-page=".incidents-page-container">Proces verbalen</div>
-                <div class="nav-item" data-page=".reports-page-container">Aangiftes</div>
+                <div class="nav-item incidents-nav-item" data-page=".incidents-page-container">Proces Verbalen</div>
+                <div class="nav-item" data-page=".reports-page-container">Rapporten</div>
                 <div class="nav-item map-nav-item" data-page=".map-page-container">Map</div>
                 <div class="nav-item bolo-nav-item" data-page=".bolos-page-container">Arrestatiebevelen</div>
-                <div class="nav-item penalcode-nav-item" data-page=".penalcode-page-container">Database</div>
-                <div class="nav-item sop-nav-item active-nav" data-page=".sop-page-container">Regels</div>
+                <div class="nav-item penalcode-nav-item" data-page=".penalcode-page-container">Rooster</div>
+                <div class="nav-item sop-nav-item active-nav" data-page=".sop-page-container">Documenten</div>
                 <div class="nav-item dmv-nav-item" data-page=".dmv-page-container">Voertuigen</div>
                 <div class="nav-item weapons-nav-item" data-page=".weapons-page-container">Wapens</div>
                 <div class="nav-item cams-nav-item" data-page=".cams-page-container">Cameras</div>
-                <div class="nav-item" data-page=".stafflogs-page-container">Logs</div>
+                <div class="nav-item" data-page=".stafflogs-page-container">Staff Logs</div>
             </div>
             <div class="sop-embed" style="border:none;">
                 <iframe class="sop-iframe" src="" target="_blank"></iframe>
@@ -700,7 +734,7 @@
         <div class="header">
             <img src="img/sasp_badge.webp" class="badge-logo">
             <div class="header-left">
-                <div class="header-title" style="color: #ffffff; font-weight: bold; font-size: 18px;">BRUSSEL POLITIE</div>
+                <div class="header-title" style="color: #caa95d; font-weight: bold; font-size: 18px;">SAN ANDREAS STATE POLICE</div>
                 <div style="color: white; font-weight: lighter; font-size: 16px;">Mobile Database Terminal</div>
             </div>
             <div class="header-middle">
@@ -708,7 +742,7 @@
                 <div class="time">00:00</div>
             </div>
             <div class="header-right">
-                <div style="color: white; font-weight: lighter; font-size: 22px;" class="name-shit">Welkom, Loading...
+                <div style="color: white; font-weight: lighter; font-size: 22px;" class="name-shit">Welcome, Loading...
                 </div>
                 <div style="color: lightgray; font-size: 15px;"><span class="fas fa-map-pin header-pin"></span><span class="header-location"></span></div>
             </div>
@@ -717,20 +751,20 @@
             <div class="nav-menu">
                 <div class="nav-item" data-page=".dashboard-page-container">Dashboard</div>
                 <div class="nav-item" data-page=".profile-page-container">Profielen</div>
-                <div class="nav-item incidents-nav-item" data-page=".incidents-page-container">Proces verbalen</div>
-                <div class="nav-item" data-page=".reports-page-container">Aangiftes</div>
+                <div class="nav-item incidents-nav-item" data-page=".incidents-page-container">Proces Verbalen</div>
+                <div class="nav-item" data-page=".reports-page-container">Rapporten</div>
                 <div class="nav-item map-nav-item" data-page=".map-page-container">Map</div>
                 <div class="nav-item bolo-nav-item" data-page=".bolos-page-container">Arrestatiebevelen</div>
-                <div class="nav-item penalcode-nav-item" data-page=".penalcode-page-container">Database</div>
-                <div class="nav-item sop-nav-item" data-page=".sop-page-container">Regels</div>
+                <div class="nav-item penalcode-nav-item" data-page=".penalcode-page-container">Rooster</div>
+                <div class="nav-item sop-nav-item" data-page=".sop-page-container">Documenten</div>
                 <div class="nav-item dmv-nav-item active-nav" data-page=".dmv-page-container">Voertuigen</div>
                 <div class="nav-item weapons-nav-item" data-page=".weapons-page-container">Wapens</div>
                 <div class="nav-item cams-nav-item" data-page=".cams-page-container">Cameras</div>
-                <div class="nav-item" data-page=".stafflogs-page-container">Logs</div>
+                <div class="nav-item" data-page=".stafflogs-page-container">Staff Logs</div>
             </div>
             <div class="dmv-container">
                 <div class="dmv-search-title"> <span class="fas fa-search"></span> Voertuigen</div>
-                <div class="dmv-search-input"><input id="dmv-search-input" placeholder="Zoek voertuig..."> </div>
+                <div class="dmv-search-input"><input id="dmv-search-input" placeholder="Zoek voertuigen..."> </div>
                 <div class="dmv-items">
 
                 </div>
@@ -752,18 +786,18 @@
                         <div class="vehicle-info-class">Klasse</div>
                         <div><span class="fas fa-folder vehicle-info-icon"></span><input type="text" readonly class="vehicle-info-class-input"></div>
                         <div class="vehicle-info-line"></div>
-                        <div class="vehicle-info-model">Model</div>
+                        <div class="vehicle-info-model">Type/Model</div>
                         <div><span class="fas fa-car vehicle-info-icon"></span><input type="text" readonly class="vehicle-info-model-input"></div>
                         <div class="vehicle-info-line"></div>
-                        <div class="vehicle-info-imageurl">Afbeelding URL</div>
+                        <div class="vehicle-info-imageurl">Image URL</div>
                         <div><span class="fas fa-images vehicle-info-icon"></span><input type="text" class="vehicle-info-imageurl-input"></div>
                         <div class="vehicle-info-line" style="margin-bottom: 0px;"></div>
                         <div class="vehicle-info-points">Voertuigpunten: <span id="vehiclePointsSliderValue">0</span></div>
-                        <div><span class="fa-solid fa-scale-balanced vehicle-info-icon"></span><input id="vehiclePointsSlider" type="range" value="0" min="0" max="10" class="vehicle-info-points-input"/></div>
+                        <div><span class="fa-solid fa-scale-balanced vehicle-info-icon"></span><input id="vehiclePointsSlider" type="range" value="0" min="0" max="30" class="vehicle-info-points-input"/></div>
                     </div>
                 </div>
                 <div class="vehicle-info-tags-container">
-                    <div class="vehicle-info-tags-title">Bekende informatie</div>
+                    <div class="vehicle-info-tags-title">Gekende informatie</div>
                     <div class="vehicle-info-tags-holder">
                         <div class="vehicle-tags">
                             <div class="vehicle-tag red-tag">Kleur</div>
@@ -774,7 +808,7 @@
                         </div>
                     </div>
                 </div>
-                <textarea class="vehicle-info-content" placeholder="Place vehicle notes here..."></textarea>
+                <textarea class="vehicle-info-content" placeholder="Eventuele informatie over het voertuig komt hier te staan..."></textarea>
             </div>
         </div>
     </div>
@@ -782,7 +816,7 @@
         <div class="header">
             <img src="img/sasp_badge.webp" class="badge-logo">
             <div class="header-left">
-                <div class="header-title" style="color: #ffffff; font-weight: bold; font-size: 18px;">BRUSSEL POLITIE</div>
+                <div class="header-title" style="color: #caa95d; font-weight: bold; font-size: 18px;">SAN ANDREAS STATE POLICE</div>
                 <div style="color: white; font-weight: lighter; font-size: 16px;">Mobile Database Terminal</div>
             </div>
             <div class="header-middle">
@@ -790,7 +824,7 @@
                 <div class="time">00:00</div>
             </div>
             <div class="header-right">
-                <div style="color: white; font-weight: lighter; font-size: 22px;" class="name-shit">Welkom, Loading...
+                <div style="color: white; font-weight: lighter; font-size: 22px;" class="name-shit">Welcome, Loading...
                 </div>
                 <div style="color: lightgray; font-size: 15px;"><span class="fas fa-map-pin header-pin"></span><span class="header-location"></span></div>
             </div>
@@ -799,20 +833,20 @@
             <div class="nav-menu">
                 <div class="nav-item" data-page=".dashboard-page-container">Dashboard</div>
                 <div class="nav-item" data-page=".profile-page-container">Profielen</div>
-                <div class="nav-item incidents-nav-item" data-page=".incidents-page-container">Proces verbalen</div>
-                <div class="nav-item" data-page=".reports-page-container">Aangiftes</div>
+                <div class="nav-item incidents-nav-item" data-page=".incidents-page-container">Proces Verbalen</div>
+                <div class="nav-item" data-page=".reports-page-container">Rapporten</div>
                 <div class="nav-item map-nav-item" data-page=".map-page-container">Map</div>
                 <div class="nav-item bolo-nav-item" data-page=".bolos-page-container">Arrestatiebevelen</div>
-                <div class="nav-item penalcode-nav-item" data-page=".penalcode-page-container">Database</div>
-                <div class="nav-item sop-nav-item" data-page=".sop-page-container">Regels</div>
+                <div class="nav-item penalcode-nav-item" data-page=".penalcode-page-container">Rooster</div>
+                <div class="nav-item sop-nav-item" data-page=".sop-page-container">Documenten</div>
                 <div class="nav-item dmv-nav-item" data-page=".dmv-page-container">Voertuigen</div>
                 <div class="nav-item weapons-nav-item active-nav" data-page=".weapons-page-container">Wapens</div>
                 <div class="nav-item cams-nav-item" data-page=".cams-page-container">Cameras</div>
-                <div class="nav-item" data-page=".stafflogs-page-container">Logs</div>
+                <div class="nav-item" data-page=".stafflogs-page-container">Staff Logs</div>
             </div>
             <div class="weapons-container">
                 <div class="weapons-search-title"> <span class="fas fa-search"></span> Wapens</div>
-                <div class="weapons-search-input"><input id="weapons-search-input" placeholder="Zoek wapen..."> </div>
+                <div class="weapons-search-input"><input id="weapons-search-input" placeholder="Zoek wapens..."> </div>
                 <div class="weapons-items">
 
                 </div>
@@ -829,7 +863,7 @@
                         <div class="weapon-info-serial">Serienummer</div>
                         <div><span class="fas fa-address-card weapon-info-icon"></span><input type="text" class="weapon-info-serial-input" ></div>
                         <div class="weapon-info-line"></div>
-                        <div class="vehicle-info-owner">Geregistreerd aan</div>
+                        <div class="vehicle-info-owner">Geregistreerd naar</div>
                         <div><span class="fas fa-bookmark weapon-info-icon"></span><input type="text" class="weapon-info-owner-input"></div>
                         <div class="weapon-info-line"></div>
                         <div class="weapon-info-model">Model</div>
@@ -838,12 +872,12 @@
                         <div class="weapon-info-class">Klasse</div>
                         <div><span class="fas fa-folder weapon-info-icon"></span><input type="text" class="weapon-info-class-input"></div>
                         <div class="weapon-info-line"></div>
-                        <div class="vehicle-info-imageurl">Afbeelding URL</div>
+                        <div class="vehicle-info-imageurl">Image URL</div>
                         <div><span class="fas fa-images weapon-info-icon"></span><input type="text" class="weapon-info-imageurl-input"></div>
                         <div class="weapon-info-line" style="margin-bottom: 0px;"></div>
                     </div>
                 </div>
-                <textarea class="weapon-info-content" placeholder="Place weapon notes here..."></textarea>
+                <textarea class="weapon-info-content" placeholder="Eventuele informatie over het wapen komt hier te staan..."></textarea>
             </div>
         </div>
     </div>
@@ -851,7 +885,7 @@
         <div class="header">
             <img src="img/sasp_badge.webp" class="badge-logo">
             <div class="header-left">
-                <div class="header-title" style="color: #ffffff; font-weight: bold; font-size: 18px;">BRUSSEL POLITIE</div>
+                <div class="header-title" style="color: #caa95d; font-weight: bold; font-size: 18px;">SAN ANDREAS STATE POLICE</div>
                 <div style="color: white; font-weight: lighter; font-size: 16px;">Mobile Database Terminal</div>
             </div>
             <div class="header-middle">
@@ -859,7 +893,7 @@
                 <div class="time">00:00</div>
             </div>
             <div class="header-right">
-                <div style="color: white; font-weight: lighter; font-size: 22px;" class="name-shit">Welkom, Loading...
+                <div style="color: white; font-weight: lighter; font-size: 22px;" class="name-shit">Welcome, Loading...
                 </div>
                 <div style="color: lightgray; font-size: 15px;"><span class="fas fa-map-pin header-pin"></span><span class="header-location"></span></div>
             </div>
@@ -868,23 +902,23 @@
             <div class="nav-menu">
                 <div class="nav-item" data-page=".dashboard-page-container">Dashboard</div>
                 <div class="nav-item" data-page=".profile-page-container">Profielen</div>
-                <div class="nav-item incidents-nav-item" data-page=".incidents-page-container">Proces verbalen</div>
-                <div class="nav-item" data-page=".reports-page-container">Aangiftes</div>
+                <div class="nav-item incidents-nav-item" data-page=".incidents-page-container">Proces Verbalen</div>
+                <div class="nav-item" data-page=".reports-page-container">Rapporten</div>
                 <div class="nav-item map-nav-item" data-page=".map-page-container">Map</div>
                 <div class="nav-item bolo-nav-item" data-page=".bolos-page-container">Arrestatiebevelen</div>
-                <div class="nav-item penalcode-nav-item" data-page=".penalcode-page-container">Database</div>
-                <div class="nav-item sop-nav-item" data-page=".sop-page-container">Regels</div>
+                <div class="nav-item penalcode-nav-item" data-page=".penalcode-page-container">Rooster</div>
+                <div class="nav-item sop-nav-item" data-page=".sop-page-container">Documenten</div>
                 <div class="nav-item dmv-nav-item" data-page=".dmv-page-container">Voertuigen</div>
                 <div class="nav-item weapons-nav-item" data-page=".weapons-page-container">Wapens</div>
                 <div class="nav-item cams-nav-item" data-page=".cams-page-container">Cameras</div>
-                <div class="nav-item active-nav" data-page=".stafflogs-page-container">Logs</div>
+                <div class="nav-item active-nav" data-page=".stafflogs-page-container">Staff Logs</div>
             </div>
             <div class="stafflogs-container">
                 <div class="stafflogs-box-title">Logs</div>
                 <div class="stafflogs-box"></div>
             </div>
             <div class="leaderboard-container">
-                <div class="leaderboard-title">Activiteit agenten</div>
+                <div class="leaderboard-title">Actieve agenten</div>
                 <div class="leaderboard-box">
                 </div>
             </div>
@@ -894,7 +928,7 @@
         <div class="header">
             <img src="img/sasp_badge.webp" class="badge-logo">
             <div class="header-left">
-                <div class="header-title" style="color: #ffffff; font-weight: bold; font-size: 18px;">BRUSSEL POLITIE</div>
+                <div class="header-title" style="color: #caa95d; font-weight: bold; font-size: 18px;">SAN ANDREAS STATE POLICE</div>
                 <div style="color: white; font-weight: lighter; font-size: 16px;">Mobile Database Terminal</div>
             </div>
             <div class="header-middle">
@@ -902,7 +936,7 @@
                 <div class="time">00:00</div>
             </div>
             <div class="header-right">
-                <div style="color: white; font-weight: lighter; font-size: 22px;" class="name-shit">Welkom, Loading...
+                <div style="color: white; font-weight: lighter; font-size: 22px;" class="name-shit">Welcome, Loading...
                 </div>
                 <div style="color: lightgray; font-size: 15px;"><span class="fas fa-map-pin header-pin"></span><span class="header-location"></span></div>
             </div>
@@ -911,16 +945,16 @@
             <div class="nav-menu">
                 <div class="nav-item" data-page=".dashboard-page-container">Dashboard</div>
                 <div class="nav-item" data-page=".profile-page-container">Profielen</div>
-                <div class="nav-item incidents-nav-item" data-page=".incidents-page-container">Proces verbalen</div>
-                <div class="nav-item" data-page=".reports-page-container">Aangiftes</div>
+                <div class="nav-item incidents-nav-item" data-page=".incidents-page-container">Proces Verbalen</div>
+                <div class="nav-item" data-page=".reports-page-container">Rapporten</div>
                 <div class="nav-item map-nav-item" data-page=".map-page-container">Map</div>
                 <div class="nav-item bolo-nav-item" data-page=".bolos-page-container">Arrestatiebevelen</div>
-                <div class="nav-item penalcode-nav-item" data-page=".penalcode-page-container">Database</div>
-                <div class="nav-item sop-nav-item" data-page=".sop-page-container">Regels</div>
+                <div class="nav-item penalcode-nav-item" data-page=".penalcode-page-container">Rooster</div>
+                <div class="nav-item sop-nav-item" data-page=".sop-page-container">Documenten</div>
                 <div class="nav-item dmv-nav-item" data-page=".dmv-page-container">Voertuigen</div>
                 <div class="nav-item weapons-nav-item" data-page=".weapons-page-container">Wapens</div>
-                <div class="nav-item cams-nav-item" data-page=".cams-page-container">Cameras</div>
-                <div class="nav-item active-nav" data-page=".stafflogs-page-container">Logs</div>
+                <div class="nav-item cams-nav-item active-nav" data-page=".cams-page-container">Cameras</div>
+                <div class="nav-item" data-page=".stafflogs-page-container">Staff Logs</div>
             </div>
             <div class="cams-container">
                 <div class="cams-item">
@@ -967,7 +1001,7 @@
         <div class="header">
             <img src="img/sasp_badge.webp" class="badge-logo">
             <div class="header-left">
-                <div class="header-title" style="color: #ffffff; font-weight: bold; font-size: 18px;">BRUSSEL POLITIE</div>
+                <div class="header-title" style="color: #caa95d; font-weight: bold; font-size: 18px;">SAN ANDREAS STATE POLICE</div>
                 <div style="color: white; font-weight: lighter; font-size: 16px;">Mobile Database Terminal</div>
             </div>
             <div class="header-middle">
@@ -975,7 +1009,7 @@
                 <div class="time">00:00</div>
             </div>
             <div class="header-right">
-                <div style="color: white; font-weight: lighter; font-size: 22px;" class="name-shit">Welkom, Loading...
+                <div style="color: white; font-weight: lighter; font-size: 22px;" class="name-shit">Welcome, Loading...
                 </div>
                 <div style="color: lightgray; font-size: 15px;"><span class="fas fa-map-pin header-pin"></span><span class="header-location"></span></div>
             </div>
@@ -984,21 +1018,20 @@
             <div class="nav-menu">
                 <div class="nav-item" data-page=".dashboard-page-container">Dashboard</div>
                 <div class="nav-item" data-page=".profile-page-container">Profielen</div>
-                <div class="nav-item incidents-nav-item" data-page=".incidents-page-container">Proces verbalen</div>
-                <div class="nav-item" data-page=".reports-page-container">Aangiftes</div>
-                <div class="nav-item active-nav map-nav-item" data-page=".map-page-container">Map</div>
+                <div class="nav-item incidents-nav-item" data-page=".incidents-page-container">Proces Verbalen</div>
+                <div class="nav-item" data-page=".reports-page-container">Rapporten</div>
+                <div class="nav-item map-nav-item active-nav" data-page=".map-page-container">Map</div>
                 <div class="nav-item bolo-nav-item" data-page=".bolos-page-container">Arrestatiebevelen</div>
-                <div class="nav-item penalcode-nav-item" data-page=".penalcode-page-container">Database</div>
-                <div class="nav-item sop-nav-item" data-page=".sop-page-container">Regels</div>
+                <div class="nav-item penalcode-nav-item" data-page=".penalcode-page-container">Rooster</div>
+                <div class="nav-item sop-nav-item" data-page=".sop-page-container">Documenten</div>
                 <div class="nav-item dmv-nav-item" data-page=".dmv-page-container">Voertuigen</div>
                 <div class="nav-item weapons-nav-item" data-page=".weapons-page-container">Wapens</div>
                 <div class="nav-item cams-nav-item" data-page=".cams-page-container">Cameras</div>
-                <div class="nav-item" data-page=".stafflogs-page-container">Logs</div>
+                <div class="nav-item" data-page=".stafflogs-page-container">Staff Logs</div>
             </div>
             <div class="calls-container">
-                <div class="calls-search-title"> <span class="fas fa-search"></span> Dispatch Calls</div>
-                <div class="calls-search-input"><input id="calls-search-input" placeholder="Search Dispatch Calls..."> </div>
-
+                <div class="calls-search-title"> <span class="fas fa-search"></span> Dispatch Meldingen</div>
+                <div class="calls-search-input"><input id="calls-search-input" placeholder="Zoek dispatch meldingen..."> </div>
                 <div class="active-calls-list">
                     <div class="active-calls-item">
                         <div class="active-call-inner-container">
@@ -1011,7 +1044,7 @@
             <div class="map-container">
                 <div style="display: flex;" class="map-title-holder" data-dbid=0>
                     <div class="map-title">Dispatch Map</div>
-                    <div class="map-clear">Clear</div>
+                    <div class="map-clear">Verwijder</div>
                 </div>
                 <div class="map-item" id="map-item"></div>
             </div>
@@ -1020,7 +1053,7 @@
     <div class="impound-form" style="display: none;">
         <form>
             <i class="far fa-id-card fa-lg"></i><input type="text" class="impound-plate" id="plate" name="plate" placeholder="Nummerplaat" disabled><br>
-            <i class="far fa-sticky-note fa-lg"></i><input type="text" class="impound-linkedreport" id="linkedreport" name="linkedreport" placeholder="Gekoppelde aangifte" required><br>
+            <i class="far fa-sticky-note fa-lg"></i><input type="text" class="impound-linkedreport" id="linkedreport" name="linkedreport" placeholder="Gelinkt rapport" required><br>
             <i class="far fa-money-bill-alt fa-lg"></i><input type="text" class="impound-fee" id="fee" name="fee" placeholder="Boete" required><br>
             <i class="far fa-clock fa-lg"></i><input type="text" id="time" class="impound-time" name="time" placeholder="Tijd (in mins)" required><br>
         </form>
